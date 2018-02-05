@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "SingleModel.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    // 打印单例的属性
+    DLog(@"打印 : %ld",SINGLEMODEL.age);
+    
+    
 }
 
 

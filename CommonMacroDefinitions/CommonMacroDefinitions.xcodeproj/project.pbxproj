@@ -15,6 +15,7 @@
 		17C970CB2028466700511A25 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C970CA2028466700511A25 /* main.m */; };
 		17C970D52028466700511A25 /* CommonMacroDefinitionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C970D42028466700511A25 /* CommonMacroDefinitionsTests.m */; };
 		17C970E02028466700511A25 /* CommonMacroDefinitionsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C970DF2028466700511A25 /* CommonMacroDefinitionsUITests.m */; };
+		17C970F420284E0000511A25 /* SingleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C970F320284E0000511A25 /* SingleModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,9 @@
 		17C970DB2028466700511A25 /* CommonMacroDefinitionsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommonMacroDefinitionsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		17C970DF2028466700511A25 /* CommonMacroDefinitionsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonMacroDefinitionsUITests.m; sourceTree = "<group>"; };
 		17C970E12028466700511A25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17C970ED20284D9000511A25 /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		17C970F220284E0000511A25 /* SingleModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SingleModel.h; sourceTree = "<group>"; };
+		17C970F320284E0000511A25 /* SingleModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SingleModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,7 @@
 		17C970BA2028466700511A25 /* CommonMacroDefinitions */ = {
 			isa = PBXGroup;
 			children = (
+				17C970F120284DE100511A25 /* Singlemodel */,
 				17C970BB2028466700511A25 /* AppDelegate.h */,
 				17C970BC2028466700511A25 /* AppDelegate.m */,
 				17C970BE2028466700511A25 /* ViewController.h */,
@@ -110,6 +115,7 @@
 				17C970C62028466700511A25 /* LaunchScreen.storyboard */,
 				17C970C92028466700511A25 /* Info.plist */,
 				17C970CA2028466700511A25 /* main.m */,
+				17C970ED20284D9000511A25 /* Common.h */,
 			);
 			path = CommonMacroDefinitions;
 			sourceTree = "<group>";
@@ -130,6 +136,15 @@
 				17C970E12028466700511A25 /* Info.plist */,
 			);
 			path = CommonMacroDefinitionsUITests;
+			sourceTree = "<group>";
+		};
+		17C970F120284DE100511A25 /* Singlemodel */ = {
+			isa = PBXGroup;
+			children = (
+				17C970F220284E0000511A25 /* SingleModel.h */,
+				17C970F320284E0000511A25 /* SingleModel.m */,
+			);
+			path = Singlemodel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,6 +283,7 @@
 				17C970C02028466700511A25 /* ViewController.m in Sources */,
 				17C970CB2028466700511A25 /* main.m in Sources */,
 				17C970BD2028466700511A25 /* AppDelegate.m in Sources */,
+				17C970F420284E0000511A25 /* SingleModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
